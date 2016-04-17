@@ -1,3 +1,4 @@
 .vagrant
 playbooks/site.retry
+playbooks/vault_pass
 **/*.pub
