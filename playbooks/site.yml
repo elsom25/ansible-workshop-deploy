@@ -10,6 +10,7 @@
   remote_user: root
   roles:
     - { role: rvm_io.rvm1-ruby, tags: ruby, become: yes }
+    - abtris.nginx-passenger
 
 - name: install and run the rails app
   hosts: web_servers
